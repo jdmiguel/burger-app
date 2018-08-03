@@ -1,5 +1,6 @@
 {
-  "name": "burger-app-react",
+  "name": "burger-app",
+  "author": "jdmiguel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
