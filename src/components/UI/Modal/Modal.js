@@ -8,7 +8,7 @@ const Modal = (props) =>  (
         <Backdrop show={props.show} clicked={props.modalClosed}/>
         <div className={classes.Modal}
             style={{
-                opacity : props.show ? '1' : '0'
+                visibility : props.show ? 'visible' : 'hidden'
             }}
         >
             {props.children}
